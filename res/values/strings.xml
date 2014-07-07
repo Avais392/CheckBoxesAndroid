@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Name of App -->
+    <string name="app_name">Using Collections</string>
+    
+    <!-- Configuration Settings -->
+    <string name="action_settings">Settings</string>
+    
+    <!-- Main Activity -->
+    <string name="main_activity">Main Activity!</string>
+    
+    <!-- Show List -->
+    <string name="show_list">Show List</string>
+
+    <!-- Other Options -->
+    <string name="my_options">My Options</string>
+
+    <!-- Settings -->
+    <string name="setting">My Settings</string>
+
+    <!-- Other Options -->
+    <string name="send">Send!</string>
+
+    <!-- Some text -->
+    <string name="some_text">Some Text</string>
+
+</resources>

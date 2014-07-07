@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.allmycode.lists"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="19" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.allmycode.lists.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <!-- My List Activity -->
+        <activity android:name=".MyListActivity">
+            <intent-filter>
+                <data android:scheme="checked" />
+            </intent-filter>
+        </activity>
+        <!-- My Option Activity -->
+        <activity android:name=".MyOptionsActivity">
+            <intent-filter>
+                <data android:scheme="options" />
+            </intent-filter>
+        </activity>
+        <!-- My Setting Activity -->
+        <activity android:name=".MySettingsActivity">
+            <intent-filter>
+                <data android:scheme="settings" />
+            </intent-filter>
+        </activity>
+        <!-- My Send Activity -->
+        <activity android:name=".MySendActivity">
+            <intent-filter>
+                <data android:scheme="send" />
+            </intent-filter>
+        </activity>
+
+    </application>
+
+</manifest>
